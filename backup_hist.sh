@@ -1,3 +1,4 @@
+#!/bin/bash
 NOW=`date +'%Y-%m-%d_%H_%M'`;
-cp /home/rmealey/.bash_history /home/rmealey/Dropbox/histories/bash_history_${NOW};
-gzip /home/rmealey/Dropbox/histories/bash_history_${NOW};
+cp /home/${USER}/.bash_history /home/${USER}/Dropbox/histories/bash_history_${NOW};
+gzip /home/${USER}/Dropbox/histories/bash_history_${NOW};
